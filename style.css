@@ -5,6 +5,11 @@
     padding: 0px;
 }
 
+body{
+    margin-left:10px ;
+    margin-right: 10px;
+}
+
 #primeiro-texto{
     text-align: center;
     padding-bottom: 10px;
@@ -12,16 +17,55 @@
 
 h1{
     text-align: center;
-    padding-bottom: 20px;
 }
-
 h2{
     text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
+    font-size: 1.2em;
+    margin: 10px;
 }
 
-#imagem-01{
-    width: 250px;
-    height: 250px;
-    background-color: gray;
+
+.container {
+    display: flex; 
+    align-items: center;
 }
+
+#imagem-01,img {
+    width: 150px;
+    height: 150px; 
+    margin-right: 10px; 
+}
+
+#txt-01 {
+    text-align: left;
+    flex-grow: 1; 
+    text-align: justify;
+}
+
+#container{
+    margin-top: 25px;
+}
+
+#imagem-02{
+    margin-left: 10px;
+}
+
+#txt-02{
+    text-align: left;
+    flex-grow: 1; 
+    text-align: justify;
+}
+
+#barra{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    margin-top: 60px;
+    position: absolute;
+    bottom: 5px;
+    margin-left: 10px;
+}
+
