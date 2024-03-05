@@ -30,16 +30,20 @@ h2{
     display: flex; 
     align-items: center;
     margin-top: 15px;
+    filter: grayscale(100);
 }
 
 #imagem-01,img {
     width: 150px;
     height: 150px;
-    margin-right: 5px; 
-    
+    margin:5px; 
 }
 
-#txt-01 {
+#imagem-01{
+    margin-right: 15px;
+}
+
+#txt-01,#txt-02 {
     text-align: left;
     flex-grow: 1; 
     text-align: justify;
@@ -51,15 +55,13 @@ h2{
     margin-right: 5px;
 }
 
-#txt-02{
-    text-align: left;
-    flex-grow: 1; 
-    text-align: justify;
-    font-size: 0.8em;
-}
-
 #barra{
     text-align: center;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bolder;
 }
 
 footer{
